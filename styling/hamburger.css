@@ -1,0 +1,66 @@
+.hamburger {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.hamburger-icon {
+    background: url(../assets/Hamburger\ icon.svg);
+    transition: 1s;
+    z-index: 21;
+}
+
+
+.hamburger-menu {
+    overflow: hidden;
+    position: absolute;
+    background:#262626;
+    border-radius: 50%;
+    transition: .5s;
+    z-index: 20;
+}
+
+.hamburger_expanded {
+    position: absolute;
+    background: #262626;
+    height: 100%;
+    width: 100%;
+    border-radius: 0px;
+    transition: .5s;
+    top: 0;
+    right: 0;
+}
+
+.hamburger_text_container h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 27px;
+    margin-left: 37px;
+}
+
+.hamburger_text_container p {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 27px;
+    margin-left: 37px;
+}
+
+.hamburger_text_container h1:first-child {
+    margin-top: 18vh;
+}
+
+.hamburger_text_container p:first-of-type {
+    margin-top: 9vh;
+}
+
+
+
+
+
+

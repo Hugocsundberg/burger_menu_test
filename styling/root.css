@@ -1,0 +1,18 @@
+:root {
+    --bg-color: #262626;
+    --text-color: #FFFFFF;
+}
+
+body, html {
+    color: var(--text-color);
+    margin: 0; 
+    background: var(--bg-color);
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+
+
