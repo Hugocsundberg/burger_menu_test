@@ -18,17 +18,19 @@
     position: absolute;
     background:#262626;
     border-radius: 50%;
-    transition: .5s;
+    transition: .7s;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1)(0.075, 0.82, 0.165, 1);
     z-index: 20;
 }
 
 .hamburger_expanded {
     position: absolute;
-    background: #262626;
+    background: rgb(169 35 35);
     height: 100%;
     width: 100%;
     border-radius: 0px;
-    transition: .5s;
+    transition: .7s;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1)(0.075, 0.82, 0.165, 1);
     top: 0;
     right: 0;
 }
